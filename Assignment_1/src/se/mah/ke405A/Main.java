@@ -172,7 +172,7 @@ public class Main extends JFrame {
 		txtHeisenbergkingpincom.setColumns(10);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("/Users/oskarhansson/Documents/Interaktionsdesign/Programmering 2/walter-white.png"));
+		label.setIcon(new ImageIcon(Main.class.getResource("/images/walter-white.png")));
 		label.setBounds(448, 6, 195, 167);
 		contentPane.add(label);
 		
@@ -182,12 +182,12 @@ public class Main extends JFrame {
 		contentPane.add(txtMedlemmar);
 		
 		JLabel label_1 = new JLabel("");
-		label_1.setIcon(new ImageIcon("/Users/oskarhansson/Documents/Interaktionsdesign/Programmering 2/GoldsGym_Logo.png"));
+		label_1.setIcon(new ImageIcon(Main.class.getResource("/images/GoldsGym_Logo.png")));
 		label_1.setBounds(504, 230, 139, 128);
 		contentPane.add(label_1);
 		
 		JLabel label_2 = new JLabel("");
-		label_2.setIcon(new ImageIcon("/Users/oskarhansson/Documents/Interaktionsdesign/Programmering 2/new_gg_logo.png"));
+		label_2.setIcon(new ImageIcon(Main.class.getResource("/images/new_gg_logo.png")));
 		label_2.setBounds(134, 6, 373, 98);
 		contentPane.add(label_2);
 	}
