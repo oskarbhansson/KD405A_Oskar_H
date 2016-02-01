@@ -1,3 +1,5 @@
+package se.mah.ke.House;
+
 public class House{
 private int yearBuilt;
 private int size;
