@@ -72,7 +72,7 @@ public class dogStoreGUI extends JFrame {
 		humanButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			
-				
+				//* if the characters in the humanField is shorter than 2, error, else, gets the text input from the textfield*/
 				if(humanField.getText().length() > 2){
 				human1 = new Human(humanField.getText());
 				errorArea.setText("");
@@ -94,7 +94,7 @@ public class dogStoreGUI extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				
 				
-				
+				//*gets the name printed in the dog field of the GUI*/
 				human1.buyDog(new Dog(dogField.getText()));
 				errorArea.setText("");
 				
@@ -107,7 +107,7 @@ public class dogStoreGUI extends JFrame {
 		contentPane.add(dogButton);
 		
 
-		
+		//*gets the info from the getInfo method in the class Human*/
 		JButton infoButton = new JButton("Get info");
 		infoButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

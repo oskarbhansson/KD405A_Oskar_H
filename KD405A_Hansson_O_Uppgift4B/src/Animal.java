@@ -1,4 +1,4 @@
-
+//* creates the abstract super class Animal*/
 public abstract class Animal {
 	private String latinName;
 	private String friendlyName;

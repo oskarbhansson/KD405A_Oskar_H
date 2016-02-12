@@ -1,3 +1,5 @@
+//* creates the class Dog, a subclass of the class abstract Mammal/*
+
 
 public class Dog extends Mammal {
 	

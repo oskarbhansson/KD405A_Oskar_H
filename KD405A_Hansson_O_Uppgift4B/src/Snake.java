@@ -1,4 +1,4 @@
-
+/** creates the class Snake, a sub class of Animal*/
 public class Snake extends Animal {
 
 	private boolean poisonous;

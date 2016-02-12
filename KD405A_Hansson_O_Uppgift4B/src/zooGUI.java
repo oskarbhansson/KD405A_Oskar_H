@@ -1,3 +1,6 @@
+/** a GUI with an array list that is looped through and printed in a text area*/
+
+
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 

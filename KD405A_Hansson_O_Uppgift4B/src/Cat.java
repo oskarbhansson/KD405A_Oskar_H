@@ -1,4 +1,4 @@
-
+//* creates the class Cat, a subclass of the abstract class Mammal/*
 public class Cat extends Mammal {
 	
 	private int numberOfLives;

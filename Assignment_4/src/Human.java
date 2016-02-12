@@ -1,4 +1,4 @@
-
+/** creates the class Human*/
 public class Human {
 	private String name;
 	private Dog dog;
@@ -16,6 +16,7 @@ public class Human {
 		
 	}
 	
+	/** creates an object of the class dog*/
 	public Dog buyDog(Dog dog){
 		dog = new Dog(dog.getName());
 		this.dog = dog;

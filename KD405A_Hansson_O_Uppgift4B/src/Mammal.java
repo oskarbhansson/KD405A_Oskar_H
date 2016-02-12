@@ -1,3 +1,4 @@
+/** creates the abstract class Mammal, a subclass Animal, and a super class to Dog and Cat*/
 
 public abstract class Mammal extends Animal {
 	private int gestationTime;
